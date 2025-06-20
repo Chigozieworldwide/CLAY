@@ -1,2 +1,1 @@
-import os
-os.system('python i_enc.py')
+gcc -shared -o libi.so  -fPIC i.c -lcurl
